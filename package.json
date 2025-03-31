@@ -1,0 +1,23 @@
+{
+  "name": "tale-forge-bnb",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend",
+    "shared",
+    "blockchain"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "start": "turbo run start",
+    "test": "turbo run test"
+  },
+  "devDependencies": {
+    "turbo": "^1.10.12"
+  },
+  "dependencies": {
+    "tencentcloud-sdk-nodejs-hunyuan": "^4.1.7"
+  }
+}
