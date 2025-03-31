@@ -1,6 +1,6 @@
-# Tale Forge - Web3新一代小说创作与分享平台
+# Novel Forge - Web3新一代小说创作与分享平台
 
-Tale Forge是一个基于BNB Chain的去中心化小说创作平台，为作者提供创作、发布和变现的一站式解决方案。
+Novel Forge是一个基于BNB Chain的去中心化小说创作平台，为作者提供创作、发布和变现的一站式解决方案。
 
 ## 数据流设计
 
@@ -40,7 +40,7 @@ Tale Forge是一个基于BNB Chain的去中心化小说创作平台，为作者�
 ## 项目结构
 
 ```
-tale-forge-bnb/
+Novel-forge-bnb/
 ├── frontend/          # 前端相关代码
 │   ├── ui/           # 共享 UI 组件
 │   ├── lib/          # 前端通用工具库
@@ -123,8 +123,8 @@ tale-forge-bnb/
 
 1. 克隆项目
 ```bash
-git clone https://github.com/your-username/tale-forge.git
-cd tale-forge
+git clone https://github.com/your-username/Novel-forge.git
+cd Novel-forge
 ```
 
 2. 安装依赖
@@ -136,7 +136,7 @@ npm install
 3. 数据库配置
 ```bash
 # 创建数据库
-createdb taleforge
+createdb Novelforge
 
 # 配置数据库连接
 cp backend/.env.example backend/.env
